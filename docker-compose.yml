@@ -1,0 +1,7 @@
+tor-client:
+  container_name: tor-client
+#  build: .
+  image: pataquets/tor-client
+  ports:
+    - 1080:9050
+#    - 9050:9050
